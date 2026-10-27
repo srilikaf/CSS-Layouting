@@ -1,0 +1,18 @@
+CSS Layouting Dimensi & Overflow
+
+Dimensial
+    Dimensi ini terdiri dari Width dan Height, dan satuannya adalah:
+      - px (satuan yang opsolud)
+      - % (nilai yang relatif)
+      - in 
+      - cm
+      - mm
+      - pt (point)
+      - pc (pieka)
+
+Overflow
+    Overflow ini mempunyai 4 value yaitu:
+      - visible (value default)
+      - auto (CSS akan secara automatis menambahkan scroll pada konten)
+      - hidden (kontennya akan di sembunyikan jika kontennya melebihin parentnya)
+      - scroll (scroll ini mirip dengan auto)
