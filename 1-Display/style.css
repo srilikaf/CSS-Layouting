@@ -1,0 +1,19 @@
+.navigasi li {
+  display: inline-block;
+  background-color: pink;
+}
+
+.main {
+  width: 600px;
+  background-color: lightgreen;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  /* display: none; */
+}
+
+.main h2 {
+  background-color: pink;
+}

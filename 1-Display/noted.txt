@@ -1,0 +1,70 @@
+tag <div> dan <span> tidak memiliki arti apapun, keduannya digunakan untuk mengelompokkan tag-tag HTML dan memberikan informasi terhadap 
+tag-tag tersebut.
+
+hubungannya dengan display?
+    <div></div> 
+      div{
+        display:block;
+      }
+
+    <span></span>
+      span{
+        display:inline;
+      } 
+
+setiap tag pada HTML berada di dalam sebuah kotak. properti display pada CSS mengatur perilaku
+dari kotak tersebut.
+
+setiap tag pada HTML memiliki nilai default untuk properti display. Tetapi kita juga dapat
+mengubah perilaku dari tag tersebut dengan mengganti value-nya.
+
+  value pada display:
+  1. inline
+  2. inline-block
+  3. block
+  4. none
+
+inline
+  - elemen HTML yang secara default tidak menambahkan baris baru ketika dibuat
+  - lebar dan tinggi elemennya sebesar konten yang ada didalamnya
+  - ketika tidak dapat mengatur tinggi dan lebar dari elemen inline
+  - margin dan padding hanya mempengaruhi elemen secara horizontal, tidak vertikal
+
+    elemen inline:
+      1. b
+      2. strong
+      3. i
+      4. em
+      5. a
+      6. span
+      7. sub
+      8. sup
+      9. button
+      10. input
+      11. label
+      12. select
+      13. textarea
+
+inline-block
+  - tidak ada elemen yang secara default memiliki properti display: inline-block;
+  - kita harus ubah secara manual properti tersebut
+  - perilaku dasarnya sama dengan elemen inline
+  - perbedaanya, elemen inline-block dapat kita atur tinggi dan lebar-nya
+
+block
+  - elemen HTML yang secara default menambahkan baris baru ketika dibuat
+  - jika tidak diatur lebar-nya, maka lebar default dari elemen block akan memenuhi lebar dari browser atau parent-nya
+  - kita dapat mengatur tinggi dan lebar dari elemen block
+  - di dalam elemen block, kita dapat menyimpan tag dengan elemene inline, inline-block, atau bahkan elemen block lagi
+
+    elemen block :
+      1. h1-h6
+      2. ol
+      3. ul
+      4. li
+      5. form
+      6. hr
+      7. div
+
+none
+  digunakan untuk menghilangkan sebuah elemen
