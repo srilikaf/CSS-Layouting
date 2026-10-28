@@ -1,0 +1,4 @@
+padding
+
+padding tidak memiliki nilai -(minus)
+padding tidak memiliki nilai auto
