@@ -1,0 +1,16 @@
+Model Margin
+  Margin
+  - margin-top
+  - margin-right
+  - margin-bottom
+  - margin left
+
+  overlapping Margin 
+    overlapping ini ketika kita ingin menggabungkan 2 margin contohnya menggabungkan margin atas dan bawah, 
+    menggabungkan margin kiri dan kanan.
+
+  auto
+    auto ini nilai margin khusus untuk margin kiri dan margin kanan.
+
+  shorthand
+    shorthand ini penyingkatan atau menyingkat tulisan margin.
