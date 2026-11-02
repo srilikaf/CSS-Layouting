@@ -1,0 +1,38 @@
+div {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+
+.satu {
+  background-color: lightgreen;
+}
+
+.dua {
+  background-color: violet;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.tiga {
+  background-color: gold;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.empat {
+  top: 0;
+  left: 0;
+  background-color: red;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+}
+.container {
+  width: 600px;
+  height: 1250px;
+  border: 5px solid green;
+  position: relative;
+}
